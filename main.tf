@@ -39,7 +39,7 @@ variable aws_region {
 
 variable instance_count {
   type    = "string"
-  default = "2"
+  default = "3"
 }
 
 provider "aws" {
